@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Conways Game of Life</title>
+        <meta name="description" content="Remake of Conways Game of Life but on a limited grid">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>        
+        <canvas></canvas>
+        <footer>
+            <button id="playBtn">play</button>
+            <button id="nextBtn">next step</button>
+            <input type="range" min="5" max="100" value="50" id="size"><label for="size">size: <span id="sizeOutput">50</span></label>
+            <input type="range" min="1" max="1000" value="100" id="speed"><label for="speed">speed: <span id="speedOutput">100</span></label>
+            
+        </footer>
+        <script src="main.js" async defer></script>
+    </body>
+</html>
